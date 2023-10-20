@@ -1,0 +1,5 @@
+dependencies {
+    api project(':misty-malom-framework-api')
+
+    runtimeOnly project(':misty-malom-framework-core')
+}
