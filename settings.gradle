@@ -1,8 +1,12 @@
+// misty common
 include 'misty-utils'
+include 'misty-test'
 
+// malom framework
 include 'misty-malom-framework-utils'
 include 'misty-malom-framework-api'
 include 'misty-malom-framework-core'
 
+// bitfinex
 include 'misty-malom-bitfinex-core'
 include 'misty-malom-bitfinex-borrow'
