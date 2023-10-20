@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca70ca4d-6852-4433-a286-81c92d5555c9" name="Changes" comment="add git submodule">
+    <list default="true" id="9eeea0e7-3113-4792-91d1-7e97f9fefe43" name="Changes" comment="add JvmInfo">
+      <change afterPath="$PROJECT_DIR$/misty-utils/src/main/java/org/misty/utils/ex/StringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misty-utils/src/test/java/org/misty/utils/ex/StringExTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misty-utils/src/test/java/org/misty/utils/jvm/JvmInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/misty-utils/src/test/java/org/misty/utils/jvm/JvmInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misty-utils/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/misty-utils/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -44,6 +57,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/misty-utils" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="cc36d827-71b7-4129-8251-944d22f3e425" />
@@ -52,10 +66,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="2X1B9yGsQG8xrvKe9b5Bp0T4ceE" />
+  <component name="ProjectId" id="2X1OeJKrqflGsrhsc8bAeKBUucJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,25 +79,87 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20231020_0003",
-    "git-widget-placeholder": "develop",
+    "com.google.cloudcode.ide_session_index": "20231020_0008",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "0ea760f7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.misty.utils.ex" />
+      <recent name="org.misty.utils.jvm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StringExTest.array">
+    <configuration name="JvmInfoTest.getArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misty-malom.misty-utils.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.misty.utils.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.misty.utils.jvm" />
+      <option name="MAIN_CLASS_NAME" value="org.misty.utils.jvm.JvmInfoTest" />
+      <option name="METHOD_NAME" value="getArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExTest.array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misty-malom.misty-utils.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.misty.utils.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.misty.utils.ex" />
+      <option name="MAIN_CLASS_NAME" value="org.misty.utils.ex.StringExTest" />
+      <option name="METHOD_NAME" value="array" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExTest.normal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misty-malom.misty-utils.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.misty.utils.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.misty.utils.ex" />
+      <option name="MAIN_CLASS_NAME" value="org.misty.utils.ex.StringExTest" />
+      <option name="METHOD_NAME" value="normal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BitfinexBorrowApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="misty-malom.misty-malom-bitfinex-borrow.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.misty.malom.bitfinex.borrow.BitfinexBorrowApp" />
@@ -89,24 +167,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringExTest.array" />
+        <item itemvalue="JUnit.StringExTest.normal" />
+        <item itemvalue="JUnit.JvmInfoTest.getArguments" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca70ca4d-6852-4433-a286-81c92d5555c9" name="Changes" comment="" />
-      <created>1697786558253</created>
+      <changelist id="9eeea0e7-3113-4792-91d1-7e97f9fefe43" name="Changes" comment="" />
+      <created>1697793213645</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697786558253</updated>
-      <workItem from="1697786560423" duration="2438000" />
+      <updated>1697793213645</updated>
+      <workItem from="1697793215816" duration="3020000" />
     </task>
-    <task id="LOCAL-00001" summary="add git submodule">
+    <task id="LOCAL-00001" summary="add JvmInfo">
       <option name="closed" value="true" />
-      <created>1697786798229</created>
+      <created>1697795306044</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1697786798229</updated>
+      <updated>1697795306044</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -114,8 +199,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add git submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git submodule" />
+    <MESSAGE value="add JvmInfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JvmInfo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

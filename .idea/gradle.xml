@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/misty-malom-framework-api" />
             <option value="$PROJECT_DIR$/misty-malom-framework-core" />
             <option value="$PROJECT_DIR$/misty-malom-framework-utils" />
+            <option value="$PROJECT_DIR$/misty-test" />
             <option value="$PROJECT_DIR$/misty-utils" />
           </set>
         </option>
