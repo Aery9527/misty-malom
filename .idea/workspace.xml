@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce885144-30f8-4a0e-aa62-da2b052487d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-bitfinex-core/src/main/java/org/misty/malom/bitfinex/core/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-bitfinex-core/src/test/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-api/src/main/java/org/misty/malom/framework/api/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-api/src/test/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-core/src/main/java/org/misty/malom/framework/core/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-core/src/test/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-utils/src/main/java/org/misty/malom/framework/utils/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misty-malom-framework-utils/src/test/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="ca70ca4d-6852-4433-a286-81c92d5555c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misty-utils" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misty-malom-framework-utils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/misty-malom-framework-utils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +23,34 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package-info" />
-      </list>
-    </option>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2X16ZJGnY5ub3T1Kk5Tk68CB59G" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2X1B9yGsQG8xrvKe9b5Bp0T4ceE" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,52 +60,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.google.cloudcode.ide_session_index": "20231020_0000",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/aerylin/IdeaProjects/misty-malom/misty-malom-framework-core/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/aerylin/IdeaProjects/misty-malom/misty-malom-bitfinex-core/src/main/java/org/misty/Main.java",
+    "git-widget-placeholder": "develop",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aerylin\IdeaProjects\misty-malom\misty-malom-framework-core\src\test\resources" />
-      <recent name="C:\Users\aerylin\IdeaProjects\misty-malom\misty-malom-bitfinex-core\src\test\resources" />
-      <recent name="C:\Users\aerylin\IdeaProjects\misty-malom\misty-malom-framework-api\src\test\resources" />
-      <recent name="C:\Users\aerylin\IdeaProjects\misty-malom\misty-malom-framework-utils\src\test\resources" />
-    </key>
+  <component name="RunManager">
+    <configuration name="BitfinexBorrowApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="misty-malom.misty-malom-bitfinex-borrow.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.misty.malom.bitfinex.borrow.BitfinexBorrowApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce885144-30f8-4a0e-aa62-da2b052487d2" name="Changes" comment="" />
-      <created>1697784294283</created>
+      <changelist id="ca70ca4d-6852-4433-a286-81c92d5555c9" name="Changes" comment="" />
+      <created>1697786558253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697784294283</updated>
-      <workItem from="1697784295304" duration="934000" />
+      <updated>1697786558253</updated>
+      <workItem from="1697786560423" duration="150000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/misty/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

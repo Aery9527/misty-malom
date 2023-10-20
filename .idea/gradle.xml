@@ -4,14 +4,15 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/misty-malom-bitfinex-borrow" />
             <option value="$PROJECT_DIR$/misty-malom-bitfinex-core" />
             <option value="$PROJECT_DIR$/misty-malom-framework-api" />
             <option value="$PROJECT_DIR$/misty-malom-framework-core" />
             <option value="$PROJECT_DIR$/misty-malom-framework-utils" />
+            <option value="$PROJECT_DIR$/misty-utils" />
           </set>
         </option>
       </GradleProjectSettings>
